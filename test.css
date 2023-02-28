@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #02022e;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #02022e;
+}
+.form {
+  max-width: 430px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 6px;
+  background: white;
+}
+header {
+  font-size: 35px;
+  font-weight: 600;
+  color: #02022e;
+  text-align: center;
+}
+
+.field {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.field input,
+.field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.field input {
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid #cacaca;
+}
+.field input:focus {
+  border-bottom-color: 3px #28024b;
+}
+
+.field button {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #02022e;
+  transition: all o.3s ease;
+  cursor: pointer;
+}
+
+.field button:hover {
+  background-color: #20a814;
+}
+
+.close-btn {
+  visibility: hidden;
+}
+.cert {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+@font-face {
+  font-family: "Times New Roman";
+  font-variant: normal;
+  font-style: normal;
+  font-weight: bold;
+  src: url("#FontID0") format(svg);
+}
+.str1 {
+  stroke: #02022e;
+  stroke-width: 105.79;
+  stroke-miterlimit: 22.9256;
+}
+.str0 {
+  stroke: #0b3205;
+  stroke-width: 70.53;
+  stroke-miterlimit: 22.9256;
+}
+.str2 {
+  stroke: #02022e;
+  stroke-width: 52.9;
+  stroke-miterlimit: 22.9256;
+}
+.fil3 {
+  fill: none;
+}
+.fil10 {
+  fill: black;
+}
+.fil1 {
+  fill: #02022e;
+}
+.fil9 {
+  fill: #0b3205;
+}
+.fil2 {
+  fill: #5047cc;
+}
+.fil0 {
+  fill: white;
+}
+.fil5 {
+  fill: #02022e;
+  fill-rule: nonzero;
+}
+.fil6 {
+  fill: #02022e;
+  fill-rule: nonzero;
+}
+.fil7 {
+  fill: #0b3205;
+  fill-rule: nonzero;
+}
+.fil4 {
+  fill: #5047cc;
+  fill-rule: nonzero;
+}
+.fil8 {
+  fill: #5047cc;
+  fill-rule: nonzero;
+}
+.fnt1 {
+  font-weight: bold;
+  font-size: 466.21px;
+  font-family: "Times New Roman";
+}
+.fnt0 {
+  font-weight: bold;
+  font-size: 986.82px;
+  font-family: "Times New Roman";
+}
+
+.cert button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #20a814;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
